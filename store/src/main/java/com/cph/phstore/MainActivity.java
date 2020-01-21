@@ -4,11 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class MainActivity extends AppCompatActivity {
+import com.cph.lib.core.activities.ProxyActivity;
+import com.cph.lib.core.delegates.CoreDelegate;
+
+public class MainActivity extends ProxyActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    public CoreDelegate setRootDelegate() {
+        return new ExampleDelegate();
     }
+
+
 }
