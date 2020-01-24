@@ -1,6 +1,7 @@
 package com.cph.lib.core.app;
 
 import android.content.Context;
+import android.content.res.Resources;
 
 import java.util.HashMap;
 import java.util.WeakHashMap;
@@ -19,6 +20,17 @@ public final class Core {
         return Configurator.getInstance().getCoreConfig();
 
     }
+    public static Configurator getConfigurator() {
+        return Configurator.getInstance();
+    }
+    public static Context getApplicationContext() {
+        return getConfiguration(ConfigType.APPLICATION_CONTEXT);
+    }
+    public static <T> T getConfiguration(Object key) {
+        return getConfigurator().getConfiguration((Enum<ConfigType>) key);
+    }
+
+
 
 
 }

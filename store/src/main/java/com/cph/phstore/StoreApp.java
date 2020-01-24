@@ -4,6 +4,7 @@ import android.app.AppComponentFactory;
 import android.app.Application;
 
 import com.cph.lib.core.app.Core;
+import com.cph.lib.core.net.Interceptors.DebugInterceptor;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
 /**
@@ -15,7 +16,8 @@ public class StoreApp extends Application {
         super.onCreate();
         Core.init(this)
                 .addIcon(new FontAwesomeModule())
-                .setApiHost("http://127.0.0.1")
+                .setApiHost("http://news.baidu.com/")
+                .withInterceptor(new DebugInterceptor("index",R.raw.test))
                 .configure();
     }
 }

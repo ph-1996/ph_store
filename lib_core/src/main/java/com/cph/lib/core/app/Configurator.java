@@ -1,11 +1,15 @@
 package com.cph.lib.core.app;
 
+import android.util.Log;
+
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.WeakHashMap;
+
+import okhttp3.Interceptor;
 
 import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 
@@ -15,6 +19,7 @@ import static android.icu.lang.UCharacter.GraphemeClusterBreak.T;
 public class Configurator {
     private static final HashMap<String,Object> CORE_CONFIG = new HashMap<>();
     private static final ArrayList<IconFontDescriptor> ICONS = new ArrayList<>();
+    private static final ArrayList<Interceptor> INTERCEPTOR = new ArrayList<>();
     private Configurator(){
         //配置还没有完成
         CORE_CONFIG.put(ConfigType.CONFIG_READY.name(),false);
@@ -28,7 +33,7 @@ public class Configurator {
         return Holder.INSTANCE;
     }
 
-    public static HashMap<String,Object> getCoreConfig(){
+    public  HashMap<String,Object> getCoreConfig(){
         return CORE_CONFIG;
     }
     //表示配置已经完成
@@ -39,6 +44,7 @@ public class Configurator {
     //设置api
     public final Configurator setApiHost(String host){
         CORE_CONFIG.put(ConfigType.API_HOST.name(),host);
+        //Log.d("lxx",""+CORE_CONFIG.get(ConfigType.API_HOST.name()));
         return this;
     }
 
@@ -51,6 +57,18 @@ public class Configurator {
             }
         }
     }
+
+    public final Configurator withInterceptor(Interceptor interceptor){
+        INTERCEPTOR.add(interceptor);
+        CORE_CONFIG.put(ConfigType.INTERCEPTOR.name(),INTERCEPTOR);
+        return this;
+    }
+
+    public final Configurator withInterceptor(ArrayList<Interceptor> interceptors){
+        INTERCEPTOR.addAll(interceptors);
+        CORE_CONFIG.put(ConfigType.INTERCEPTOR.name(),INTERCEPTOR);
+        return this;
+    }
     //加入字体
     public final Configurator addIcon(IconFontDescriptor descriptor){
         ICONS.add(descriptor);
@@ -61,14 +79,12 @@ public class Configurator {
         final boolean isReady = (boolean) CORE_CONFIG.get(ConfigType.CONFIG_READY.name());
         if(!isReady){
             throw new RuntimeException("配置未完成");
-
         }
 
     }
     @SuppressWarnings("unchecked")
-    final <T> T getConfiguration(Enum<ConfigType> key){
+    public final <T> T getConfiguration(Enum<ConfigType> key){
         checkConfiguration();
         return (T) CORE_CONFIG.get(key.name());
     }
-
 }
