@@ -3,17 +3,10 @@ package com.cph.lib.core.net.rs;
 import android.content.Context;
 
 import com.cph.lib.core.net.HttpMethod;
-import com.cph.lib.core.net.RestClientBuilder;
 import com.cph.lib.core.net.RestCreator;
-import com.cph.lib.core.net.RestService;
-import com.cph.lib.core.net.callback.IError;
-import com.cph.lib.core.net.callback.IFailure;
 import com.cph.lib.core.net.callback.IRequest;
-import com.cph.lib.core.net.callback.ISuccess;
-import com.cph.lib.core.net.callback.RequestCallbacks;
-import com.cph.lib.core.net.download.DownloadHandler;
-import com.cph.lib.core.ui.CoreLoader;
-import com.cph.lib.core.ui.LoderStyle;
+import com.cph.lib.core.ui.loader.CoreLoader;
+import com.cph.lib.core.ui.loader.LoderStyle;
 
 import java.io.File;
 import java.util.WeakHashMap;
@@ -23,8 +16,6 @@ import okhttp3.MediaType;
 import okhttp3.MultipartBody;
 import okhttp3.RequestBody;
 import okhttp3.ResponseBody;
-import retrofit2.Call;
-import retrofit2.Callback;
 
 /**
  * Created by CPH on 2020/1/21

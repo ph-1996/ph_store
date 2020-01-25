@@ -8,8 +8,8 @@ import com.cph.lib.core.net.callback.IRequest;
 import com.cph.lib.core.net.callback.ISuccess;
 import com.cph.lib.core.net.callback.RequestCallbacks;
 import com.cph.lib.core.net.download.DownloadHandler;
-import com.cph.lib.core.ui.CoreLoader;
-import com.cph.lib.core.ui.LoderStyle;
+import com.cph.lib.core.ui.loader.CoreLoader;
+import com.cph.lib.core.ui.loader.LoderStyle;
 
 
 import java.io.File;

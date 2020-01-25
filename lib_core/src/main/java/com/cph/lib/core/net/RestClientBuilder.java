@@ -6,11 +6,9 @@ import com.cph.lib.core.net.callback.IError;
 import com.cph.lib.core.net.callback.IFailure;
 import com.cph.lib.core.net.callback.IRequest;
 import com.cph.lib.core.net.callback.ISuccess;
-import com.cph.lib.core.ui.LoaderCreator;
-import com.cph.lib.core.ui.LoderStyle;
+import com.cph.lib.core.ui.loader.LoderStyle;
 
 import java.io.File;
-import java.util.Map;
 import java.util.WeakHashMap;
 
 import okhttp3.MediaType;

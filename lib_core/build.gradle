@@ -56,5 +56,10 @@ dependencies {
     api 'io.reactivex.rxjava2:rxjava:2.2.17'
     api 'io.reactivex.rxjava2:rxandroid:2.0.1'
     api 'com.squareup.retrofit2:adapter-rxjava2:2.3.0'
+    //JSON依赖Android版
+    implementation 'com.alibaba:fastjson:1.1.57.android'
+    //Bananer依赖
+    api 'com.bigkoo:convenientbanner:2.0.5'
+    api 'androidx.recyclerview:recyclerview:1.0.0+'
 
 }

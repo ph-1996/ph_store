@@ -2,8 +2,8 @@ package com.cph.lib.core.net.callback;
 
 import android.os.Handler;
 
-import com.cph.lib.core.ui.CoreLoader;
-import com.cph.lib.core.ui.LoderStyle;
+import com.cph.lib.core.ui.loader.CoreLoader;
+import com.cph.lib.core.ui.loader.LoderStyle;
 
 import retrofit2.Call;
 import retrofit2.Callback;

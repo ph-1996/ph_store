@@ -2,13 +2,9 @@ package com.cph.lib.core.net.rs;
 
 import android.content.Context;
 
-import com.cph.lib.core.net.RestClient;
 import com.cph.lib.core.net.RestCreator;
-import com.cph.lib.core.net.callback.IError;
-import com.cph.lib.core.net.callback.IFailure;
 import com.cph.lib.core.net.callback.IRequest;
-import com.cph.lib.core.net.callback.ISuccess;
-import com.cph.lib.core.ui.LoderStyle;
+import com.cph.lib.core.ui.loader.LoderStyle;
 
 import java.io.File;
 import java.util.WeakHashMap;

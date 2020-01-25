@@ -1,4 +1,4 @@
-package com.cph.lib.core.ui;
+package com.cph.lib.core.ui.loader;
 
 import android.content.Context;
 
