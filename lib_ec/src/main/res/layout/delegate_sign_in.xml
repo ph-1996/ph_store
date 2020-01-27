@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_green_dark">
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="登录"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            />
+    </androidx.appcompat.widget.Toolbar>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:fitsSystemWindows="true"
+            android:paddingTop="56dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp"
+                android:src="@mipmap/ic_launcher"/>
+            <!--姓名-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_sign_in_email"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="@string/email" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <!--密码-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edit_sign_in_password"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="@string/password"
+                    android:inputType="numberPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_sign_in"
+                android:gravity="center"
+                android:background="@android:color/holo_green_dark"
+                android:layout_marginTop="10dp"
+                android:text="登录"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"/>
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/tv_link_sing_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:gravity="center"
+                android:text="还没有账号？请注册"
+                android:textSize="16sp"/>
+
+            <com.joanzapata.iconify.widget.IconTextView
+                android:id="@+id/icon_sign_in_wechat"
+                android:text="{fa-weixin}"
+                android:textColor="#04b00f"
+                android:textSize="40sp"
+                android:gravity="center"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </ScrollView>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

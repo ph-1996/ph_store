@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">lib_ec</string>
+    <string name="user_name">用户名</string>
+    <string name="email">邮箱</string>
+    <string name="phone_number">电话号码</string>
+    <string name="password">密码</string>
+    <string name="re_password">重复密码</string>
+
+
 </resources>

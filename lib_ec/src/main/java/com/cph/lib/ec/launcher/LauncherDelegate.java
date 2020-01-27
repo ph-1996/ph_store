@@ -1,5 +1,6 @@
 package com.cph.lib.ec.launcher;
 
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -7,8 +8,12 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 
 
-
+import com.cph.lib.core.app.AccountManager;
+import com.cph.lib.core.app.IUserChecker;
 import com.cph.lib.core.delegates.CoreDelegate;
+import com.cph.lib.core.ui.Launcher.ILauncherListener;
+import com.cph.lib.core.ui.Launcher.OnLauncherFinishTag;
+import com.cph.lib.core.ui.Launcher.ScrollLauncherTag;
 import com.cph.lib.core.util.storage.CorePreference;
 import com.cph.lib.core.util.timer.BaseTimerTask;
 import com.cph.lib.core.util.timer.ITimerListener;
@@ -23,10 +28,12 @@ import butterknife.OnClick;
 
 /**
  * Created by CPH on 2020/1/24
+ * 首页倒计时
  */
 public class LauncherDelegate extends CoreDelegate implements ITimerListener {
     private Timer mTimer = null;
     private int mCount = 5;
+    private ILauncherListener mILauncherListener = null;
     @BindView(R2.id.tv_launcher_timer)
     TextView mTvTimer = null;
     @OnClick(R2.id.tv_launcher_timer)
@@ -38,6 +45,15 @@ public class LauncherDelegate extends CoreDelegate implements ITimerListener {
         }
     }
 
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        if(activity instanceof ILauncherListener){
+            mILauncherListener = (ILauncherListener) activity;
+        }
+    }
+
+    //初始化计时器
     private void initTimer(){
         mTimer = new Timer();
         final BaseTimerTask task = new BaseTimerTask(this);
@@ -59,6 +75,21 @@ public class LauncherDelegate extends CoreDelegate implements ITimerListener {
             start(new LauncherScrollDelegate(),SINGLETASK);
         }else {
             //检查用户是否登录
+            AccountManager.checkAccout(new IUserChecker() {
+                @Override
+                public void onSignIn() {
+                    if (mILauncherListener!=null){
+                        mILauncherListener.onLauncherFinish(OnLauncherFinishTag.SIGNED);
+                    }
+                }
+
+                @Override
+                public void onNotSignIn() {
+                    if (mILauncherListener !=null){
+                        mILauncherListener.onLauncherFinish(OnLauncherFinishTag.NOT_SIGNED);
+                    }
+                }
+            });
 
         }
     }

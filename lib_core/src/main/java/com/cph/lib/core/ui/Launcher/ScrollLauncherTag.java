@@ -1,4 +1,4 @@
-package com.cph.lib.ec.launcher;
+package com.cph.lib.core.ui.Launcher;
 
 /**
  * Created by CPH on 2020/1/25

@@ -38,14 +38,14 @@ public class ExampleDelegate extends CoreDelegate {
 
     @Override
     public void onBindView(@Nullable Bundle savedInstanceState, View rootView) {
-           // testRestClient();
-        onCallRxGet();
+           testRestClient();
+       // onCallRxGet();
             Log.d("lxx","run" );
     }
 
     private void testRestClient(){
         RestClient.builder()
-                .url("https://news.baidu.com/index")
+                .url("http://192.168.47.1:8090/myjson/moni.json")
                // .params("","")
                 .loader(getContext())
                 .success(new ISuccess() {

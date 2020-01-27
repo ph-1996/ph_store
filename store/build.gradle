@@ -33,4 +33,6 @@ dependencies {
     implementation project(path: ':lib_ec')
     annotationProcessor project(path: ':lib_compiler')
     implementation project(path: ':lib_core')
+    //数据库可视化
+   // debugImplementation 'com.amitshekhar.android:debug-db:1.0.1'
 }
