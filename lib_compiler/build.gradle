@@ -2,7 +2,14 @@ apply plugin: 'java-library'
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ':lib_annotations')
+    //以下三个有关于注解apt生成方法
+    api 'com.squareup:javapoet:1.9.0'
+    api 'com.google.auto.service:auto-service:1.0-rc6'
+    //必须加这一句
+    annotationProcessor 'com.google.auto.service:auto-service:1.0-rc6'
+    api 'com.google.auto:auto-common:0.8'
 }
 
-sourceCompatibility = "7"
-targetCompatibility = "7"
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

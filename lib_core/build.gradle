@@ -60,6 +60,7 @@ dependencies {
     //JSON依赖Android版
     api 'com.alibaba:fastjson:1.1.57.android'
     //Bananer依赖
+
     api 'com.bigkoo:convenientbanner:2.0.5'
     api 'androidx.recyclerview:recyclerview:1.0.0+'
     //数据库依赖
@@ -67,5 +68,7 @@ dependencies {
     api 'org.greenrobot:greendao-generator:3.2.2'
     //数据库可视化
  //   debugImplementation 'com.amitshekhar.android:debug-db:1.0.1'
+    //微信依赖（包含统计）
+    api 'com.tencent.mm.opensdk:wechat-sdk-android-with-mta:+'
 
 }

@@ -21,6 +21,8 @@ public class StoreApp extends Application {
                 .addIcon(new FontAwesomeModule())
                // .setApiHost("http://192.168.47.1:8090/myjson/moni.json")
                 .setApiHost("https://www.baidu.com/")
+                .withWechatAppId("")
+                .withWechatSecret("")
            //     .withInterceptor(new DebugInterceptor("index",R.raw.test))
                 .configure();
         DatabaseManager.getInstance().init(this);

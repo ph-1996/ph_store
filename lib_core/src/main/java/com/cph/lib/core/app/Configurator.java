@@ -1,5 +1,6 @@
 package com.cph.lib.core.app;
 
+import android.app.Activity;
 import android.util.Log;
 
 import com.joanzapata.iconify.IconFontDescriptor;
@@ -63,10 +64,26 @@ public class Configurator {
         CORE_CONFIG.put(ConfigType.INTERCEPTOR.name(),INTERCEPTOR);
         return this;
     }
-
+    //加入拦截器
     public final Configurator withInterceptor(ArrayList<Interceptor> interceptors){
         INTERCEPTOR.addAll(interceptors);
         CORE_CONFIG.put(ConfigType.INTERCEPTOR.name(),INTERCEPTOR);
+        return this;
+    }
+    //微信APPID
+    public final Configurator withWechatAppId(String appId){
+        CORE_CONFIG.put(ConfigType.WE_CHAT_APP_ID.name(),appId);
+        return this;
+    }
+    //微信密码
+    public final Configurator withWechatSecret(String appSecret){
+        CORE_CONFIG.put(ConfigType.WE_CHAT_APP_SECRET.name(),appSecret);
+        return this;
+    }
+
+    //微信上下文
+    public final Configurator withActivity(Activity activity){
+        CORE_CONFIG.put(ConfigType.ACTIVITY.name(),activity);
         return this;
     }
     //加入字体

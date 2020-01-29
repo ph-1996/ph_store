@@ -27,6 +27,8 @@ public class MainActivity extends ProxyActivity implements ISignListener, ILaunc
         if(actionBar != null){
             actionBar.hide();
         }
+        //添加微信上下文
+        Core.getConfigurator().withActivity(this);
     }
 
     @Override

@@ -14,6 +14,8 @@ import com.cph.lib.core.net.RestClient;
 import com.cph.lib.core.net.callback.IError;
 import com.cph.lib.core.net.callback.IFailure;
 import com.cph.lib.core.net.callback.ISuccess;
+import com.cph.lib.core.wechat.PhWeChat;
+import com.cph.lib.core.wechat.callbacks.IWeChatSignInCallback;
 import com.cph.lib.ec.R;
 import com.cph.lib.ec.R2;
 import com.google.android.material.textfield.TextInputEditText;
@@ -66,7 +68,12 @@ public class SignInDelegate extends CoreDelegate {
    //点击微信登录
    @OnClick(R2.id.icon_sign_in_wechat)
    void onClickWeChat(){
+       PhWeChat.getInstance().onSignSuccess(new IWeChatSignInCallback() {
+           @Override
+           public void onSignInSuccess(String userInfo) {
 
+           }
+       }).signIn();
  }
     private ISignListener mISignListener = null;
 
