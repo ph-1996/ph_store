@@ -14,6 +14,7 @@ import com.cph.lib.core.ui.Launcher.ILauncherListener;
 import com.cph.lib.core.ui.Launcher.OnLauncherFinishTag;
 import com.cph.lib.ec.launcher.LauncherDelegate;
 import com.cph.lib.ec.launcher.LauncherScrollDelegate;
+import com.cph.lib.ec.main.EcBottomDelegate;
 import com.cph.lib.ec.sign.ISignListener;
 import com.cph.lib.ec.sign.SignInDelegate;
 import com.cph.lib.ec.sign.SignUpDelegate;
@@ -55,7 +56,7 @@ public class MainActivity extends ProxyActivity implements ISignListener, ILaunc
             //已经登陆
             case SIGNED:
                 Toast.makeText(this,"已经登陆",Toast.LENGTH_LONG).show();
-                start(new ExampleDelegate());
+                start(new EcBottomDelegate());
                 break;
                 //未登录
             case NOT_SIGNED:
