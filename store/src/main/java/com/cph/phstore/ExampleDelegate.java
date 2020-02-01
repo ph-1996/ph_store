@@ -44,8 +44,8 @@ public class ExampleDelegate extends CoreDelegate {
     }
 
     private void testRestClient(){
-        RestClient.builder()
-                .url("http://192.168.47.1:8090/myjson/moni.json")
+            RestClient.builder()
+                    .url("http://192.168.47.1:8090/myjson/moni.json")
                // .params("","")
                 .loader(getContext())
                 .success(new ISuccess() {

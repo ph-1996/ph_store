@@ -1,0 +1,65 @@
+{
+  "code": 0,
+  "message": "ok",
+  "total":100,
+  "paze_size":6, 
+  "data": [
+    { "goodsId": 0,
+	  "spanSize": 4,
+	  "banners":[
+		"https://yanxuan-item.nosdn.127.net/01096d81db993e563cd0f3f2c0c1ab92.png",
+		"https://yanxuan-item.nosdn.127.net/9ce01b9576a473d93e5f2f09a2564f14.png",
+		"https://yanxuan-item.nosdn.127.net/140f06e26c3737fd2f498a81cdacc1a4.png"
+	  ]
+    },
+    {
+      "goodsId": 1,
+	  "text": "测试1",
+      "imageUrl": "https://yanxuan-item.nosdn.127.net/2813f08144e4f56b52586220a47b2c08.png",
+	  "spanSize": 4
+
+    },
+	{
+      "goodsId": 2,
+	  "text": "测试2",
+      "imageUrl": "https://yanxuan.nosdn.127.net/4c956f7bc9fc963e7768c48b3cfbee4a.jpg",
+	  "spanSize": 4
+
+    },
+	{
+      "goodsId": 3,
+	  "text": "测试3",
+      "imageUrl": "https://yanxuan.nosdn.127.net/5fba0ebf8ba1f0d87bceca7fdee7e452.jpg",
+	  "spanSize": 2
+
+    },
+	{
+      "goodsId": 4,
+	  "text": "测试4",
+      "imageUrl": "https://yanxuan.nosdn.127.net/ae9162bf919e2e1562b090259265426e.jpg",
+	  "spanSize": 2
+
+    },
+	{
+      "goodsId": 5,
+	  "text": "测试5",
+      "imageUrl": "https://yanxuan.nosdn.127.net/212a4232d2d081e12d9193724c340dbe.jpg",
+	  "spanSize": 4
+
+    },
+	{
+      "goodsId": 6,
+	  "text": "测试6",
+      "imageUrl": "http://yanxuan.nosdn.127.net/dc2155452a8f560cf1bd49bc26c82683.jpg",
+	  "spanSize": 4
+
+    },
+	{
+      "goodsId": 7,
+	  "text": "测试7",
+      "imageUrl": "https://yanxuan.nosdn.127.net/8d1ac1912d88eb2d2238624d302f91c3.jpg",
+	  "spanSize": 4
+
+    }
+  ]
+}

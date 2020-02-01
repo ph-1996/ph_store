@@ -1,6 +1,7 @@
 package com.cph.lib.core.app;
 
 import android.app.Activity;
+import android.os.Handler;
 import android.util.Log;
 
 import com.joanzapata.iconify.IconFontDescriptor;
@@ -21,9 +22,11 @@ public class Configurator {
     private static final HashMap<String,Object> CORE_CONFIG = new HashMap<>();
     private static final ArrayList<IconFontDescriptor> ICONS = new ArrayList<>();
     private static final ArrayList<Interceptor> INTERCEPTOR = new ArrayList<>();
+    private static final Handler HANDLER = new Handler();
     private Configurator(){
         //配置还没有完成
         CORE_CONFIG.put(ConfigType.CONFIG_READY.name(),false);
+        CORE_CONFIG.put(ConfigType.HANDLER.name(), HANDLER);
     }
     //获取单例
     private static class Holder{

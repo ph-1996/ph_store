@@ -20,6 +20,8 @@ import com.cph.lib.ec.sign.SignInDelegate;
 import com.cph.lib.ec.sign.SignUpDelegate;
 import com.joanzapata.iconify.fonts.FontAwesomeModule;
 
+import qiu.niorgai.StatusBarCompat;
+
 public class MainActivity extends ProxyActivity implements ISignListener, ILauncherListener {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -30,6 +32,7 @@ public class MainActivity extends ProxyActivity implements ISignListener, ILaunc
         }
         //添加微信上下文
         Core.getConfigurator().withActivity(this);
+        StatusBarCompat.translucentStatusBar(this,true);
     }
 
     @Override

@@ -2,6 +2,7 @@ package com.cph.lib.core.app;
 
 import android.content.Context;
 import android.content.res.Resources;
+import android.os.Handler;
 
 import java.util.HashMap;
 import java.util.WeakHashMap;
@@ -29,7 +30,9 @@ public final class Core {
     public static <T> T getConfiguration(Object key) {
         return getConfigurator().getConfiguration((Enum<ConfigType>) key);
     }
-
+    public static Handler getHandler() {
+        return getConfiguration(ConfigType.HANDLER);
+    }
 
 
 
