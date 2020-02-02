@@ -27,7 +27,7 @@ public class MultipleRecyclerAdapter extends
         implements BaseQuickAdapter.SpanSizeLookup, OnItemClickListener {
     //确保初始化一次banner
     private boolean mIsInitBanner = false;
-    private MultipleRecyclerAdapter(List<MultipleItemEntity> data) {
+    protected MultipleRecyclerAdapter(List<MultipleItemEntity> data) {
         super(data);
         init();
     }

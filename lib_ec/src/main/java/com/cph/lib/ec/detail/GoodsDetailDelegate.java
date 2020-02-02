@@ -24,5 +24,5 @@ public class GoodsDetailDelegate extends CoreDelegate {
     public void onBindView(@Nullable Bundle savedInstanceState, View rootView) {
 
     }
-    
+
 }

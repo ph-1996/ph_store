@@ -2,8 +2,44 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <androidx.appcompat.widget.AppCompatTextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="分类"/>
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_red_dark">
+        <TextView
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="分类"
+            android:paddingTop="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:background="@color/app_background"
+        android:baselineAligned="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:background="@android:color/white"
+            android:id="@+id/fl_list_container"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+        </FrameLayout>
+        <FrameLayout
+            android:background="@android:color/white"
+            android:id="@+id/sort_content_containner"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="2.5">
+
+        </FrameLayout>
+
+    </LinearLayout>
 </LinearLayout>

@@ -27,6 +27,8 @@ public class StoreApp extends Application {
                // .withWechatSecret("")
                .withInterceptor(new DebugInterceptor("index",R.raw.ec))
                 .withInterceptor(new DebugInterceptor("text",R.raw.test))
+                .withInterceptor(new DebugInterceptor("sort_list",R.raw.sort_list))
+                .withInterceptor(new DebugInterceptor("sort_content",R.raw.sort_content_data))
                 .configure();
         DatabaseManager.getInstance().init(this);
     }

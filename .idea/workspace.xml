@@ -6,6 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cph" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -136,50 +137,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b00164fb-b8c4-4473-8b47-c088c0002c80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/BannerCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/HolderCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/ImageHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/BaseDecoration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/DatatConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntityBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleViewHolder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/RgbValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/PagingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/RefreshHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/drawable/dot_focus.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/drawable/dot_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_banner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_image.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_image_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_core/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDataConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/TranslucentBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/main/res/raw/ec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/store/src/main/res/raw/user.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/ContentDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionContentItemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SeletionDataConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/SortRecyclerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDataConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_list_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_vertical_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_content.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_header.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/item_vertical_menu_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/main/res/raw/sort_content_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/store/src/main/res/raw/sort_list.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_annotations/build/libs/lib_annotations.jar" beforeDir="false" afterPath="$PROJECT_DIR$/lib_annotations/build/libs/lib_annotations.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_core/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/ConfigType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/ConfigType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Configurator.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Configurator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Core.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Core.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/CoreDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/CoreDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_core/src/main/res/layout/delegate_bottom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/res/layout/delegate_bottom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/icon/EcIcons.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/icon/EcIcons.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/detail/GoodsDetailDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/detail/GoodsDetailDelegate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/ExampleDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/ExampleDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sort.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/StoreApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/StoreApp.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -213,51 +197,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexItemClickListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/detail/GoodsDetailDelegate.java">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/ContentDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+              <caret line="64" column="120" selection-start-line="64" selection-start-column="120" selection-end-line="64" selection-end-column="120" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#337#338#0" expanded="true" />
-                <element signature="e#377#378#0" expanded="true" />
-                <element signature="e#310#311#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#1699#1909#0" expanded="true" />
+                <element signature="e#1908#1909#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_goods_index.xml">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            <state relative-caret-position="-75">
+              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDataConverter.java">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_content.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_header.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/SortRecyclerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-527">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDataConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-186">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SeletionDataConverter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
-              <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -266,24 +292,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDelegate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1336#1337#0" expanded="true" />
-                <element signature="e#1386#1387#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
+            <state relative-caret-position="104">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -292,43 +304,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/BaseDelegate.java">
+        <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/CoreDelegate.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="-34">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding>
-                <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/store/src/main/java/com/cph/phstore/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="34" column="54" selection-start-line="34" selection-start-column="54" selection-end-line="34" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/BaseDecoration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#570#571#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#640#641#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#689#690#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -351,7 +341,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>RestClient</find>
       <find>Configurator</find>
       <find>checkParams()</find>
       <find>RestCreator.getParams()</find>
@@ -381,6 +370,7 @@
       <find>mItemViewType</find>
       <find>ITEM_DELEGATES</find>
       <find>mAdapter</find>
+      <find>DELEGATE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -389,30 +379,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/sign/SignInDelegate.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BottomItemDelegate.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BottomTabBean.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/ItemBuilder.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/res/layout/bottom_item_icon_text_layout.xml" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BaseBottomDelegate.java" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/cart/CartDelegate.java" />
-        <option value="$PROJECT_DIR$/store/build.gradle" />
-        <option value="$PROJECT_DIR$/lib_annotations/build.gradle" />
-        <option value="$PROJECT_DIR$/lib_compiler/build.gradle" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sort.xml" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/icon/EcIcons.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/ConfigType.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Configurator.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/app/Core.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/ExampleDelegate.java" />
-        <option value="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/StoreApp.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleFields.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntityBuilder.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/DatatConverter.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntity.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/res/layout/delegate_bottom.xml" />
         <option value="$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_image.xml" />
@@ -420,7 +390,6 @@
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleViewHolder.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/ImageHolder.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/BannerCreator.java" />
-        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/HolderCreator.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/PagingBean.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/RefreshHandler.java" />
@@ -430,20 +399,41 @@
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDataConverter.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/BaseDecoration.java" />
         <option value="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/MainActivity.java" />
-        <option value="$PROJECT_DIR$/lib_core/build.gradle" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/RgbValue.java" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/TransluncentBehavior.java" />
-        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/TranslucentBehavior.java" />
         <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/CoreDelegate.java" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_goods_index.xml" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexItemClickListener.java" />
         <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/detail/GoodsDetailDelegate.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_vertical_list.xml" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_list_content.xml" />
+        <option value="$PROJECT_DIR$/lib_core/build.gradle" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sort.xml" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml" />
+        <option value="$PROJECT_DIR$/store/src/main/res/raw/sort.json" />
+        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java" />
+        <option value="$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/item_vertical_menu_list.xml" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDelegate.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDataConverter.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/SortRecyclerAdapter.java" />
+        <option value="$PROJECT_DIR$/store/src/main/res/raw/sort_content_data.json" />
+        <option value="$PROJECT_DIR$/store/src/main/java/com/cph/phstore/StoreApp.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionContentItemEntity.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionBean.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SeletionDataConverter.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/section_header_layout.xml" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_content.xml" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionAdapter.java" />
+        <option value="$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/ContentDelegate.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="9" />
     <option name="width" value="1920" />
     <option name="height" value="1020" />
@@ -456,7 +446,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -525,6 +514,7 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -605,16 +595,6 @@
               <item name="cph" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
-              <item name="delegates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
-              <item name="lib_core" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="cph" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
               <item name="ui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -630,6 +610,32 @@
             </path>
             <path>
               <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_core" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_core" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="dimen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_core" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
               <item name="lib_ec" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
@@ -675,7 +681,53 @@
               <item name="cph" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="ec" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_ec" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ec" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_ec" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ec" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_ec" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ec" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_ec" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="ec" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="sort" type="462c0819:PsiDirectoryNode" />
+              <item name="list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
@@ -687,6 +739,53 @@
               <item name="lib_ec" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="lib_ec" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="com" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="cph" type="462c0819:PsiDirectoryNode" />
+              <item name="phstore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
+              <item name="store" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
             <path>
               <item name="CphStore" type="1abcf292:AndroidViewProjectNode" />
@@ -716,11 +815,11 @@
       <recent name="com.cph.lib.core.net.rs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\android\CphStore\store\src\main\res\raw" />
+      <recent name="C:\android\CphStore\lib_ec\src\main\res\layout" />
       <recent name="C:\android\CphStore\lib_ec\src\main\res\values" />
       <recent name="C:\android\CphStore\lib_core\src\main\res\values" />
       <recent name="C:\android\CphStore\lib_core\src\main\res\drawable" />
-      <recent name="C:\android\CphStore\store\src\main\res\raw" />
-      <recent name="C:\android\CphStore\lib_core\src\main\java\com\cph\lib\core\ui\refresh" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -868,28 +967,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="0" width="1280" height="680" extended-state="1" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.35008237" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.3458096" />
       <window_info id="Structure" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Favorites" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.4987795" weight="0.6886228" />
+      <window_info anchor="bottom" id="Logcat" order="0" sideWeight="0.4987795" weight="0.688" />
       <window_info anchor="bottom" id="TODO" order="1" weight="0.32945737" />
       <window_info anchor="bottom" id="Android Profiler" order="2" weight="0.32945737" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.92248064" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5012205" side_tool="true" weight="0.68992245" />
       <window_info anchor="bottom" id="Version Control" order="5" weight="0.32945737" />
-      <window_info anchor="bottom" id="Build" order="6" weight="0.746507" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.74451095" />
       <window_info anchor="bottom" id="Run" order="7" weight="0.5668663" />
       <window_info anchor="bottom" id="Debug" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.43495145" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.43313372" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" weight="0.3295362" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Gradle" order="2" weight="0.3294893" />
@@ -899,325 +998,12 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib_compiler/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/build.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/ImageHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/drawable/dot_normal.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/Launcher/OnLauncherFinishTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/Launcher/ScrollLauncherTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/Launcher/LauncherHolderCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/HolderCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/banner/BannerCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/Launcher/ILauncherListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/Launcher/LauncherHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/launcher/LauncherScrollDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="45" column="38" selection-start-line="45" selection-start-column="38" selection-end-line="45" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BaseBottomDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="30" column="37" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BottomItemDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/PagingBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
-          <folding>
-            <element signature="e#367#368#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#662#663#0" expanded="true" />
-            <element signature="e#694#695#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#856#857#0" expanded="true" />
-            <element signature="e#993#994#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/76f3c69879d3e01c082f49d8661c5590838148e1/retrofit-2.3.0-sources.jar!/retrofit2/ExecutorCallAdapterFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/refresh/RefreshHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
-          <caret line="56" column="16" selection-start-line="56" selection-start-column="16" selection-end-line="56" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#815#989#0" expanded="true" />
-            <element signature="e#988#989#0" expanded="true" />
-            <element signature="e#2063#2283#0" expanded="true" />
-            <element signature="e#2282#2283#0" expanded="true" />
-            <element signature="e#1462#1652#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1677#1881#0" expanded="true" />
-            <element signature="e#1880#1881#0" expanded="true" />
-            <element signature="e#1959#1960#0" expanded="true" />
-            <element signature="e#1984#1985#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/DatatConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleFields.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1118#1119#0" expanded="true" />
-            <element signature="e#1176#1177#0" expanded="true" />
-            <element signature="e#1226#1227#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleViewHolder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/bottom_item_icon_text_layout.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/delegate_bottom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_banner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_text.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_image.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/layout/item_multiple_image_text.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntityBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/store/src/main/res/raw/ec.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1102">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/src/main/res/values/colors.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="86" column="15" selection-start-line="86" selection-start-column="15" selection-end-line="86" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_core/build/generated/source/apt/debug/com/cph/lib/core/ui/recycler/AutoValue_RgbValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-725">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Android/Sdk/platforms/android-29/android.jar!/android/graphics/Color.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.coordinatorlayout/coordinatorlayout/1.0.0/4325b3c4422ad58201ed8dc15ae56bda9accedf2/coordinatorlayout-1.0.0-sources.jar!/androidx/coordinatorlayout/widget/CoordinatorLayout.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="621" selection-start-line="621" selection-end-line="621" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="55" selection-start-line="55" selection-start-column="55" selection-end-line="55" selection-end-column="55" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/TranslucentBehavior.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1253,18 +1039,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1336#1337#0" expanded="true" />
-            <element signature="e#1386#1387#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/BaseDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1283,34 +1057,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDataConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_goods_index.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexItemClickListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -1326,13 +1072,384 @@
     <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/detail/GoodsDetailDelegate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#337#338#0" expanded="true" />
             <element signature="e#377#378#0" expanded="true" />
             <element signature="e#310#311#0" expanded="true" />
             <element signature="e#334#335#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/database/UserProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/database/ReleaseOpenHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/database/DatabaseManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/delegates/bottom/BottomItemDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/EcBottomDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="23" column="71" selection-start-line="23" selection-start-column="71" selection-end-line="23" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1336#1337#0" expanded="true" />
+            <element signature="e#1386#1387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1064">
+          <caret line="91" column="58" selection-start-line="91" selection-start-column="58" selection-end-line="91" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_goods_index.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sign_up.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/util/dimen/DimenUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_index.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="22" column="55" selection-start-line="22" selection-start-column="55" selection-end-line="22" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/ItemType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/index/IndexDataConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/res/raw/sort.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/DatatConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#946#947#0" expanded="true" />
+            <element signature="e#1118#1119#0" expanded="true" />
+            <element signature="e#1176#1177#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1271#1272#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.22/2cd6dd101fb318c00e9a1a304a8950fc960f6c8/BaseRecyclerViewAdapterHelper-2.9.22-sources.jar!/com/chad/library/adapter/base/BaseViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/SortDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="83" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleViewHolder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/res/raw/sort_list.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.22/2cd6dd101fb318c00e9a1a304a8950fc960f6c8/BaseRecyclerViewAdapterHelper-2.9.22-sources.jar!/com/chad/library/adapter/base/BaseQuickAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="593" column="19" selection-start-line="593" selection-start-column="19" selection-end-line="593" selection-end-column="19" />
+          <folding>
+            <element signature="e#18461#18462#0" expanded="true" />
+            <element signature="e#18489#18490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/item_vertical_menu_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/res/raw/ec.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_sort.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_vertical_list.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/delegate_list_content.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/java/com/cph/phstore/StoreApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="30" column="92" selection-start-line="30" selection-start-column="92" selection-end-line="30" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.CymChad/BaseRecyclerViewAdapterHelper/2.9.22/2cd6dd101fb318c00e9a1a304a8950fc960f6c8/BaseRecyclerViewAdapterHelper-2.9.22-sources.jar!/com/chad/library/adapter/base/entity/SectionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/store/src/main/res/raw/sort_content_data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionContentItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-110">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#613#614#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_core/src/main/java/com/cph/lib/core/ui/recycler/MultipleRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/SortRecyclerAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-527">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#570#571#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#640#641#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#689#690#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDataConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/list/VerticalListDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SeletionDataConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_header.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/res/layout/item_section_content.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/SectionAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-75">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib_ec/src/main/java/com/cph/lib/ec/main/sort/content/ContentDelegate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="64" column="120" selection-start-line="64" selection-start-column="120" selection-end-line="64" selection-end-column="120" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1699#1909#0" expanded="true" />
+            <element signature="e#1908#1909#0" expanded="true" />
           </folding>
         </state>
       </provider>
