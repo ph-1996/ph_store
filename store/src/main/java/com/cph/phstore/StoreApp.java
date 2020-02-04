@@ -29,6 +29,7 @@ public class StoreApp extends Application {
                 .withInterceptor(new DebugInterceptor("text",R.raw.test))
                 .withInterceptor(new DebugInterceptor("sort_list",R.raw.sort_list))
                 .withInterceptor(new DebugInterceptor("sort_content",R.raw.sort_content_data))
+                .withJavaScriptInterface("CORE")
                 .configure();
         DatabaseManager.getInstance().init(this);
     }

@@ -4,8 +4,14 @@ import android.app.Activity;
 import android.os.Handler;
 import android.util.Log;
 
+import androidx.annotation.NonNull;
+
+import com.cph.lib.core.delegates.web.event.Event;
+import com.cph.lib.core.delegates.web.event.EventManager;
 import com.joanzapata.iconify.IconFontDescriptor;
 import com.joanzapata.iconify.Iconify;
+
+import org.greenrobot.greendao.annotation.NotNull;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -37,6 +43,17 @@ public class Configurator {
         return Holder.INSTANCE;
     }
 
+    public final Configurator withJavaScriptInterface(@NonNull String name){
+        CORE_CONFIG.put(ConfigType.JAVA_SCRIPT.name(),name);
+        return this;
+    }
+
+    public final Configurator withWebEvent(@NonNull String name, @NonNull Event event){
+
+        final EventManager eventManager = EventManager.getInstance();
+        eventManager.addEvent(name,event);
+        return this;
+    }
     public  HashMap<String,Object> getCoreConfig(){
         return CORE_CONFIG;
     }

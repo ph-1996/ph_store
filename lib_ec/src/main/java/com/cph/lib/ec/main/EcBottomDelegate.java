@@ -8,6 +8,7 @@ import com.cph.lib.core.delegates.bottom.BaseBottomDelegate;
 import com.cph.lib.core.delegates.bottom.BottomItemDelegate;
 import com.cph.lib.core.delegates.bottom.BottomTabBean;
 import com.cph.lib.core.delegates.bottom.ItemBuilder;
+import com.cph.lib.ec.main.discover.DiscoverDelegate;
 import com.cph.lib.ec.main.index.IndexDelegate;
 import com.cph.lib.ec.main.sort.SortDelegate;
 
@@ -22,7 +23,7 @@ public class EcBottomDelegate extends BaseBottomDelegate {
         final LinkedHashMap<BottomTabBean, BottomItemDelegate> item = new LinkedHashMap<>();
         item.put(new BottomTabBean("{fa-home}","主页"),new IndexDelegate());
         item.put(new BottomTabBean("{fa-sort}","分类"),new SortDelegate());
-        item.put(new BottomTabBean("{fa-compass}","发现"),new IndexDelegate());
+        item.put(new BottomTabBean("{fa-compass}","发现"),new DiscoverDelegate());
         item.put(new BottomTabBean("{fa-shopping-cart}","购物车"),new SortDelegate());
         item.put(new BottomTabBean("{fa-user}","我的"),new SortDelegate());
 
